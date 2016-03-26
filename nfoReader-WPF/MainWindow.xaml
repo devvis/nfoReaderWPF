@@ -1,0 +1,14 @@
+﻿<Window x:Name="mainWindow" x:Class="nfoReader_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:nfoReader_WPF"
+        Title="dNR" Height="862" Width="590" WindowStartupLocation="CenterScreen" Background="Black">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:MainWindow.AboutCmd}" Executed="AboutCmdExecuted"/>
+        <CommandBinding Command="{x:Static local:MainWindow.ExitApplication}" Executed="ExitApplicationExecuted"/>
+        <CommandBinding Command="{x:Static local:MainWindow.OpenNFOFile}" Executed="OpenNFOFileExecuted"/>
+    </Window.CommandBindings>
+    <Grid>
+        <TextBox x:Name="nfoBox" TextWrapping="Wrap" FontFamily="Courier New" BorderThickness="0" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" IsReadOnlyCaretVisible="True" Background="Black" Foreground="#FFB0B0B0" CaretBrush="White" SelectionBrush="#FF404040" Margin="0,10,0,0" IsReadOnly="True"/>
+    </Grid>
+</Window>
