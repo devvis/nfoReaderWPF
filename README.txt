@@ -1,6 +1,3 @@
-# nfoReaderWPF
-A "port" of the nfoReader application to WPF
-
             _____                .___       
       _____/ ____\___________  __| _/______ 
      /    \   __\/  _ \_  __ \/ __ |\_  __ \
@@ -12,3 +9,5 @@ A "port" of the nfoReader application to WPF
    |  LiCENSE..: MiT      LANGUAGE..: C#    |
    |  SiZE.....: SMALL    iCON......: NONE  |
     ---------------------------------------- 
+
+A "port" of the nfoReader application to WPF
